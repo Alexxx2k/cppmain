@@ -4,7 +4,7 @@ int main()
 {
 	try
 	{
-		int num = 0;o
+		int num = 0;
 
 		if (!(std::cin >> num)) {
 			throw std::invalid_argument("Wrong input");
