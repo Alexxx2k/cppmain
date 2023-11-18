@@ -13,6 +13,10 @@ int main()
   {
     std::cerr << ("Wrong Input");
   }
+  else if(rows < 1 || cols < 1)
+  {
+    std::cerr << ("Rows or columns of the matrix cannot be less than 1");
+  }
   int* arr = new int[rows * cols];
 
   outArray(arr, rows, cols);
