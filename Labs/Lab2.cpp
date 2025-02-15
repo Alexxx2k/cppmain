@@ -15,6 +15,7 @@ int main()
            std::cout << 2 << "\n";
        else
            std::cout << 0 << "\n";
+
     }
     catch (std::exception const & error)
     {
