@@ -7,7 +7,6 @@ int main()
        int a; int b; int c;
        if (!(std::cin >> a >> b >> c)) {
            throw std::invalid_argument("Wrong input");
-
        }
        if (a == b && a == c)
            std::cout << 3 << "\n";
